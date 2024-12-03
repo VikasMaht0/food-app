@@ -1,0 +1,8 @@
+.order-item{
+    grid-template-columns: 0.8fr 3fr 1fr 1fr 1fr;
+    border: 1px solid tomato;
+}
+
+.order-item-food, .order-item-name{
+    font-weight: 600;
+}

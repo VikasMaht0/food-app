@@ -1,0 +1,24 @@
+.explore-list::-webkit-scrollbar{
+    display: none;
+}
+
+.explore-list-item img{
+    width: 7.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.2s;
+}
+
+.explore-list-item p{
+    font-weight: 500;
+    color: #747474;
+    font-size: max(1.4vw, 16px);
+    cursor: pointer;
+}
+
+.explore-list-item .active{
+    border: 4px solid rgb(255, 66, 33);
+    padding: 2px;
+}

@@ -1,0 +1,9 @@
+.app-download-platforms img{
+    cursor: pointer;
+    width: 10rem;
+    transition: 0.5s;
+}
+
+.app-download-platforms img:hover{
+    transform: scale(1.05);
+}

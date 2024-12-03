@@ -1,0 +1,17 @@
+.add p{
+    font-weight: 500;
+}
+
+.flexi{
+    display: flex;
+    flex-direction: column;
+}
+.flexi input, .flexi textarea, .add-category select{
+    outline: none;
+    border: 2px solid rgb(146, 146, 146);
+    border-radius: 10px;
+}
+
+.add-product-name input, .add-product-desc textarea, .add-category select, .add-price input{
+    padding: 10px;
+}

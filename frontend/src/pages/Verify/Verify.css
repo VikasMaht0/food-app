@@ -1,0 +1,11 @@
+.spinner{
+    border: 5px solid #bdbdbd;
+    border-top-color: rgb(255, 105, 79);    
+    animation: rotate 1s infinite;
+}
+
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}

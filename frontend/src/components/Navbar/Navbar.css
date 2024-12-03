@@ -1,0 +1,38 @@
+.navbar{
+    border-bottom: 1px solid rgb(176, 176, 176);
+}
+
+.navbar-menu .active{
+    padding-bottom: 2px;
+    border-bottom: 3px solid #49557e;
+}
+
+.navbar-menu li{
+    cursor: pointer;
+}
+
+.navbar-profile:hover .nav-profile-dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #fff2ef;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid tomato;
+    outline: 2px solid white;
+}
+
+.nav-profile-dropdown li{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.nav-profile-dropdown img{
+    width: 1rem;
+}
+
+.nav-profile-dropdown p{
+    font-size: 0.8rem;
+}

@@ -1,0 +1,36 @@
+.login-container{
+    animation: fadeIn 1s;
+}
+
+.login-input input{
+    padding: 8px;
+    outline: none;
+    border: 2px solid #c9c9c9;
+    border-radius: 5px;
+}
+
+.login-container p{
+    font-size: 0.8rem;
+}
+
+.login p span{
+    font-size: 1rem;
+    color: tomato;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 640px) { 
+    .login-container p{
+        font-size: 0.6rem;
+    }
+    .login p span{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .login-input input{
+        padding: 7px;
+    }  
+}
